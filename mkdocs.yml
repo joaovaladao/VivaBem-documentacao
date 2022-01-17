@@ -1,0 +1,66 @@
+site_name: VivaBem 
+repo_url: https://github.com/Requisitos-de-Software/2021.1-VivaBem/
+theme:
+    name: material 
+    logo: img/vivaBem.svg
+    favicon: img/vivaBem.svg
+    palette:
+        primary: light blue
+nav:
+    - Home: index.md
+    - Apresentações: "Apresentacoes/apresentacoes.md"
+    - Pré-rastreabilidade: 
+        - Planejamento: "Planejamento/planejamento.md"
+        - Rich-Picture: "Planejamento/rich-picture.md"
+    - Elicitação de requisitos:
+      - Técnicas:
+          - Análise de Protocolo: "Elicitação de Requisitos/analise_protocolo.md"
+          - Brainstorming: "Elicitação de Requisitos/brainstorming.md"
+          - Entrevistas: "Elicitação de Requisitos/entrevista.md"
+          - Introspecção: "Elicitação de Requisitos/introspeccao.md"
+          - Personas: "Elicitação de Requisitos/personas.md"
+          - Questionário: "Elicitação de Requisitos/Questionário.md"
+          - StoryBoards: "Elicitação de Requisitos/storyboard.md"
+          - Requisitos elicitados: "Elicitação de Requisitos/requisitos.md"
+      - Priorização:
+          - MoSCoW: "Elicitação de Requisitos/moscow.md"
+          - Valor, Custo e Risco: "Elicitação de Requisitos/valor custo e risco.md"
+    - Modelagem de Requisitos:
+        - Casos de Uso: "Modelagem/casos_de_uso.md"
+        - Cenários: "Modelagem/cenarios.md"
+        - Léxicos: "Modelagem/lexicos.md"
+        - Especificação Suplementar: "Modelagem/especificacao_suplementar.md"
+        - NFR Framework: "Modelagem/NFR_framework.md"
+        - Backlog do Produto:
+          - Backlog: Modelagem/BacklogDoProduto/backlog.md
+          - História de Usuário:
+              - História de Usuário: Modelagem/BacklogDoProduto/HistoriasDeUsuario/historiaDeUsuario.md
+              - Épico 01 - Acesso ao aplicativo: Modelagem/BacklogDoProduto/HistoriasDeUsuario/epico01.md
+              - Épico 02 - Área de usuário: Modelagem/BacklogDoProduto/HistoriasDeUsuario/epico02.md
+              - Épico 03 - Área de medicação: Modelagem/BacklogDoProduto/HistoriasDeUsuario/epico03.md
+              - Épico 04 - Área de notificação: Modelagem/BacklogDoProduto/HistoriasDeUsuario/epico04.md
+              - Épico 05 - Área de exames: Modelagem/BacklogDoProduto/HistoriasDeUsuario/epico05.md
+              - Épico 06 - Área mais opções: Modelagem/BacklogDoProduto/HistoriasDeUsuario/epico06.md
+              - Épico 07 - Documentação: Modelagem/BacklogDoProduto/HistoriasDeUsuario/epico07.md
+    - Analise: 
+        - Verificação: 
+              - Introdução: Analise/Verificacao/vIntroducao.md
+              - Rich Picture: Analise/Verificacao/vRichPicture.md
+              - Cenários: Analise/Verificacao/vCenarios.md
+              - Backlog: Analise/Verificacao/vBacklog.md
+              - NFR : Analise/Verificacao/vNFR.md
+              - Casos de Usos: Analise/Verificacao/vCasosUso.md
+              - Lexico: Analise/Verificacao/vLexicos.md
+        - Validação: 
+              - Validação Informal: Analise/Validacao/validacao-informal.md
+              - Prototipo: Analise/Validacao/prototipo.md
+    - Pós Rastreabilidade:
+        - Backward-From: Pos Rastreabilidade/backward.md
+        - Forward-To: Pos Rastreabilidade/forward.md
+              
+extra_css:
+  - "style/index.css"
+
+plugins:
+  - search:
+      lang: pt
